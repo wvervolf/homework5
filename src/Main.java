@@ -24,11 +24,11 @@ public class Main {
             }
         }
         System.out.println("задание 3"); //Задание 3
-        int year = 2021; // Какой год
-        int del4 = year % 4; // Делим на 4
-        int del100 = year % 100; // Делим на 100
-        boolean vi = year > 1584 && del4 == 0 && del100 > 0;
-        if (year >= 1584 && del4 == 0 && del100 > 0){
+        int year = 2000; // Какой год
+        int isLeapYear = year % 4; // Делим на 4
+        int isLeapYearMax = year % 400;
+        int isNoLeapYear = year % 100; // Делим на 100
+        if (year >= 1584 && isLeapYear == 0 && isNoLeapYear > 0  || isLeapYearMax == 0){
             System.out.println("Год високосный");
         }else{
             System.out.println("Год невисокосный");
