@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("задание 1"); // Задание 1
+        System.out.println("задание 1"); //Задание 1
         int clientOS = 1;
         if (clientOS == 1) {
             System.out.println("Установите версию приложения для Android по ссылке");
         }else if (clientOS == 0){
             System.out.println("Установите версию приложения для iOS по ссылке");
         }
-        System.out.println("задание 2"); // Задание 2
+        System.out.println("задание 2"); //Задание 2
         int clientDeviceYear = 2015;
         if (clientOS == 1){
             if (clientDeviceYear < 2015){
@@ -23,7 +23,7 @@ public class Main {
                 System.out.println("Установите версию приложения для iOS по ссылке");
             }
         }
-        System.out.println("задание 3"); // Задание 3
+        System.out.println("задание 3"); //Задание 3
         int year = 2021; // Какой год
         int del4 = year % 4; // Делим на 4
         int del100 = year % 100; // Делим на 100
@@ -33,7 +33,7 @@ public class Main {
         }else{
             System.out.println("Год невисокосный");
         }
-        System.out.println("задание 4"); // Задание 4
+        System.out.println("задание 4"); //Задание 4
         int deliveryDistance = 95;
         int minTimeDelivery = 1;
         if (deliveryDistance <= 20) {
@@ -43,7 +43,7 @@ public class Main {
         }else{
             System.out.println("Потребуется дней: " + (minTimeDelivery+2));
         }
-        System.out.println("задание 5"); // Задание 5
+        System.out.println("задание 5"); //Задание 5
         int monthNumber = 12;
         switch (monthNumber){
             case 12:
