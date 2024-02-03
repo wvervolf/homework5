@@ -24,11 +24,8 @@ public class Main {
             }
         }
         System.out.println("задание 3"); //Задание 3
-        int year = 2000; // Какой год
-        int isLeapYear = year % 4; // Делим на 4
-        int isLeapYearMax = year % 400;
-        int isNoLeapYear = year % 100; // Делим на 100
-        if (year >= 1584 && isLeapYear == 0 && isNoLeapYear > 0  || isLeapYearMax == 0){
+        int year = 1200; // Какой год
+        if (year >= 1584 && year % 4 == 0 && year % 100 > 0  || year % 400 == 0 && year >= 1584){
             System.out.println("Год високосный");
         }else{
             System.out.println("Год невисокосный");
